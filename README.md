@@ -37,15 +37,7 @@ Below is the function of each block in the system:
 
 8. **Constant Source 2**  
    - Implements the Doppler velocity formula:  
-
-     \[
-     v = \frac{\Delta f \cdot c}{2 \cdot f_{carrier}}
-     \]
-
-     where:  
-     - \( \Delta f \) = measured frequency shift  
-     - \( c \) = speed of light  
-     - \( f_{carrier} \) = radar carrier frequency  
+ v = shift * speed of light / 2 * carrier frequency
 
 ---
 
